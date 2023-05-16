@@ -27,12 +27,12 @@
 .header input {
   outline: none;
   border: none;
-  width: 242px;
+  width: 250px;
 }
 .header input::placeholder {
   font-style: normal;
   font-weight: 500;
-  font-size: 13px;
+  font-size: 14px;
   line-height: 18px;
   color: #5C5C5C;
 }
@@ -44,12 +44,13 @@
 /* width: 183px; */
 font-style: normal;
 font-weight: 500;
-font-size: 14px;
+font-size: 16px;
 color: #2E2E2E;
 text-align: center;
 }
 .header .accounttext span{
     color: #2F6CE5;
+    font-weight: 700;
 }
 .header .dropdown{
     height: 5px;

@@ -1,0 +1,45 @@
+.banner {
+  border: solid;
+  height: 440px;
+  width: 100%;
+  background-image: url("../asstes/banner.png");
+  position: relative;
+}
+
+.banner .overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.45) 0%, rgba(0, 0, 0, 0.6) 100%);
+    z-index: 1;
+}
+
+.banner .textcont{
+    position: absolute;
+    bottom: 80px;
+    left: 200px;
+    z-index: 2;
+}
+
+.banner h1 {
+  width: 378px;
+  height: 47px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 47px;
+  color: #ffffff;
+  margin-bottom: 4px;
+}
+
+.banner p {
+  width: 327px;
+  height: 23px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  color: #ffffff;
+}
