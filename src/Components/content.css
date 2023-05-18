@@ -1,11 +1,13 @@
 .content {
   margin-top: 28px;
   width: 692px;
-  border: solid 1px rgba(0, 0, 0, 0.164);
+
 }
 .content .cholder {
-  margin-bottom: 36px;
+  margin-bottom: 16px;
   position: relative;
+  border: 1px solid #E0E0E0;
+  border-radius: 4px;
 }
 .content .type-img {
   height: 25px;
@@ -17,7 +19,9 @@
 .content .type-img img {
   object-fit: contain;
 }
-
+.cimg{
+  width: 100%;
+}
 .content .ctext {
   padding: 0 20px;
 }
@@ -75,11 +79,13 @@
   justify-content: space-between;
   align-items: center;
   margin-top: 32px;
+  margin-bottom: 20px;
 }
 .content .profile {
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  width: 100%;
 }
 .content .profile .pimg {
   height: 48px;
@@ -102,7 +108,7 @@
   justify-content: space-between;
   align-items: center;
   width: 95px;
-  margin-left: 292px;
+  margin-right: 40px;
 }
 
 .content .eyeimg {

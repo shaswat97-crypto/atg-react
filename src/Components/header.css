@@ -1,3 +1,4 @@
+
 .header {
   width: 100%;
   height: 72px;
@@ -69,9 +70,56 @@
 .smallh {
   display: none;
 }
+.epi {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.shareimg {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  cursor: pointer;
+}
+.shareimg img {
+  width: 18px;
+  height: 18px;
+  /* object-fit: contain; */
+  margin-right: 4px;
+}
+.shareimg .eyetext {
+  display: none;
+}
+
 @media (max-width: 1045px) {
   .header {
     display: none;
+  }
+  .content {
+    width: 100%;
+    /* border: solid;
+    margin: 10px; */
+  }
+  .cimg {
+    width: 100vw;
+  }
+  .ahemcont {
+    width: 95vw;
+    object-fit: contain;
+    height: 16px;
+    display: flex;
+    justify-content: flex-start;
+  }
+  .ahemcont img {
+    object-fit: contain;
+  }
+  .ahembtn {
+    width: auto;
+    height: 34px;
+  }
+  .content .ctext {
+    padding: 0;
   }
   .smallh {
     display: block;
@@ -163,6 +211,7 @@
     display: flex;
     align-items: center;
     justify-content: flex-start;
+    cursor: pointer;
   }
   .bheadsm .dropdown {
     margin-right: 10px;
@@ -184,21 +233,25 @@
   .content {
     width: auto;
   }
-  .content .type-img {
+  .content .cholder .type-img {
     height: 19px;
     width: 77px;
   }
-  .content h1 {
+  .content .cholder h1 {
     width: auto;
-    margin-bottom: 12px;
-    height: 42px;
+    margin-bottom: 10px;
+    margin-top: 6px;
+    height: auto;
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
-    line-height: 21px;
+    /* line-height: 21px; */
     color: #212529;
+    margin-right: 18px;
+    display: flex;
+    flex-wrap: wrap;
   }
-  .content p {
+  .content .cholder p {
     width: auto;
     height: 25px;
     height: 18px;
@@ -206,7 +259,50 @@
     font-weight: 400;
     font-size: 14px;
     line-height: 18px;
+    overflow: hidden;
+    max-width: 324px;
+    color: #495057;
+  }
+  .content .cholder .name {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 17px;
+    width: auto;
+    /* identical to box height */
+
+    color: #212529;
+  }
+
+  .content .cholder .profile .pimg {
+    height: 37px;
+    width: 37px;
+  }
+
+  .content .eyeimg {
+    display: none;
+  }
+
+  .content .eyetext {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    width: auto;
+    /* identical to box height */
 
     color: #495057;
+  }
+  .epi {
+    flex-direction: column;
+    align-items: flex-start;
+    height: 33px;
+  }
+  .shareimg .eyetext {
+    display: flex;
+  }
+  .body{
+    width: 100vw;
+    overflow: hidden;
   }
 }
